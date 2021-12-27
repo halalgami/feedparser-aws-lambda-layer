@@ -6,7 +6,7 @@ LAYER_NAME=feedparser-py-layer
 CFN_STACK_NAME=feedparser-lambda-layer-codebuild
 CFN_TEMPLATE=cfn-template.yaml
 YOUR_LIB_NAME=feedparser
-YOUR_LIB_VERSION:=1.20.26
+YOUR_LIB_VERSION:=6.0.8
 
 
 deploy-ci: ## Deploy Codepipeline with Cloudformation
